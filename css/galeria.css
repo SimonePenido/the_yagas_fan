@@ -21,7 +21,7 @@ article {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url(imagens/img1.1.png); 
+    background-image: url(images/back_gallery); 
     height: 40em;
     background-size: cover;
     background-position: top center;
@@ -47,7 +47,7 @@ h2 {
     font-weight: 700;
     color: white;
     letter-spacing: 10px;
-    background-color: #00ff0048;
+    background-color: #b6c9f759;
     border-radius: 5px;
     text-shadow: 2px 2px 2px #1c1d22;
     text-transform: uppercase;
@@ -70,8 +70,8 @@ iframe {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 80%;
-    height: 460px;
+    width: 680px;
+    height: 520px;
     border-radius: 5px;
     grid-column: 1 / -1;
     grid-row: auto;
@@ -79,7 +79,7 @@ iframe {
 }
 
 .secao-background {
-    background-image: url("imagens/background.png");
+    background-image: url(images/corvo.png);
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
@@ -265,7 +265,7 @@ section.awSlider > img {
     text-align: center;
     padding: 8em 0;
     margin-top: 3em;
-    text-shadow: 2px 2px 3px #00ff00;
+    text-shadow: 2px 2px 3px #b9b5c9;
     letter-spacing: 2px;
     font-size: .7rem;
 }
